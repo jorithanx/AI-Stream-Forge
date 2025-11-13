@@ -1,0 +1,21 @@
+version: "1"
+name: no-source-pipeline
+
+sink:
+  type: kafka
+  topic: out.topic
+  bootstrap_servers: localhost:9092
+
+# hobby-session-21
+
+# hobby-session-229
+
+# hobby-session-24
+
+# hobby-session-146
+
+# hobby-session-314
+
+# hobby-session-336
+
+# hobby-session-361

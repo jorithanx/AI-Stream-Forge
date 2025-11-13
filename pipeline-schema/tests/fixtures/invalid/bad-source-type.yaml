@@ -1,0 +1,20 @@
+version: "1"
+name: bad-source-type
+
+source:
+  type: postgres_cdc
+  topic: some.topic
+  bootstrap_servers: localhost:9092
+
+sink:
+  type: kafka
+  topic: out.topic
+  bootstrap_servers: localhost:9092
+
+# hobby-session-174
+
+# hobby-session-461
+
+# hobby-session-23
+
+# hobby-session-14

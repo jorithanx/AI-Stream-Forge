@@ -1,0 +1,31 @@
+version: "1"
+name: duplicate-ids
+
+source:
+  type: kafka_cdc
+  topic: some.topic
+  bootstrap_servers: localhost:9092
+
+transforms:
+  - id: my-filter
+    type: filter
+    condition: "op == 'c'"
+
+  - id: my-filter
+    type: filter
+    condition: "after.user_id != null"
+
+sink:
+  type: kafka
+  topic: out.topic
+  bootstrap_servers: localhost:9092
+
+# hobby-session-9
+
+# hobby-session-62
+
+# hobby-session-175
+
+# hobby-session-285
+
+# hobby-session-36

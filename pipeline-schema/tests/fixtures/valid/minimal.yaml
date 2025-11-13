@@ -1,0 +1,24 @@
+version: "1"
+name: minimal-pipeline
+
+source:
+  type: kafka_cdc
+  topic: streamforge.streamforge.customers
+  bootstrap_servers: localhost:9092
+
+sink:
+  type: kafka
+  topic: user.event.counts
+  bootstrap_servers: localhost:9092
+
+# hobby-session-5
+
+# hobby-session-6
+
+# hobby-session-349
+
+# hobby-session-168
+
+# hobby-session-237
+
+# hobby-session-302
