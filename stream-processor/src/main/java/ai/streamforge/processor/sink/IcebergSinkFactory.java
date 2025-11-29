@@ -284,3 +284,5 @@ public class IcebergSinkFactory {
         return (v != null && !v.isBlank()) ? v : defaultValue;
     }
 }
+
+// hobby-session-4-1
