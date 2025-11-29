@@ -153,3 +153,5 @@ public class AvroConfluentSerializationSchema implements SerializationSchema<Use
     /** Return the Avro schema JSON string used by this serializer. */
     public static String getSchemaJson() { return SCHEMA_JSON; }
 }
+
+// hobby-session-5-1
