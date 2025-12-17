@@ -55,3 +55,5 @@ public final class CdcAggregationFunctions {
         }
     }
 }
+
+// hobby-session-9-1
