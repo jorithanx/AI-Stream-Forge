@@ -25,3 +25,5 @@ public class DriftSignalSerializationSchema implements SerializationSchema<Drift
         }
     }
 }
+
+// hobby-session-10-1
