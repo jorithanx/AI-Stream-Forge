@@ -250,3 +250,5 @@ public class IcebergMaintenanceJob {
         return (v != null && !v.isBlank()) ? v : defaultValue;
     }
 }
+
+// hobby-session-11-3
