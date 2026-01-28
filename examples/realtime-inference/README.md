@@ -122,3 +122,6 @@ Returns `{"requests_total": N, "errors_total": N, "avg_latency_ms": N}`.
 
 
 <!-- hobby-session-20 -->
+
+
+<!-- hobby-session-18-1 -->
