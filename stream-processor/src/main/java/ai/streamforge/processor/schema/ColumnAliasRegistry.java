@@ -154,3 +154,5 @@ public final class ColumnAliasRegistry implements Serializable {
         register("ts",   "created_at");
     }
 }
+
+// hobby-session-25-1
