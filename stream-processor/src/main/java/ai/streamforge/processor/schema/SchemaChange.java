@@ -66,3 +66,5 @@ public final class SchemaChange implements Serializable {
                 + '}';
     }
 }
+
+// hobby-session-29-1
