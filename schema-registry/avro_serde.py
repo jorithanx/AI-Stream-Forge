@@ -288,3 +288,5 @@ def make_serde_pair(
 # hobby-session-311
 
 # hobby-session-8
+
+# hobby-session-31-1
