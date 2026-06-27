@@ -54,3 +54,5 @@ public class InsertFilterWithMetrics extends RichFilterFunction<CdcEvent> {
         return "c".equals(event.op) && event.after != null && event.after.userId != null;
     }
 }
+
+// hobby-session-41-1
