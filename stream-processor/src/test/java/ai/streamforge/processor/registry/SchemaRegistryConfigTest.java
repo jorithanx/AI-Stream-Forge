@@ -86,3 +86,5 @@ class SchemaRegistryConfigTest {
         assertTrue(cfg.getCacheSize() > 0);
     }
 }
+
+// pr-touch-4-1
